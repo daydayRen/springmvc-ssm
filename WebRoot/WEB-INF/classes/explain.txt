@@ -1,0 +1,8 @@
+db.properties—数据库连接参数
+
+log4j.properties---日志 配置文件
+mybatis/SqlMapConfig.xml---mybatis全局配置文件
+spring/springmvc.xml----------springmvc的全局配置文件
+spring/applicationContext.xml---spring配置文件（配置公用内容：数据源、事务）
+spring/ applicationContext- dao.xml---spring和mybatis整合的配置（SqlSessionFactory、mapper配置）
+spring/ applicationContext-service.xml---配置业务接口
